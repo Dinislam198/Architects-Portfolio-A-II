@@ -306,6 +306,25 @@ header {
     mix-blend-mode: luminosity;
 }
 
+/* Additional Part */
+.subscriber{
+    margin-left: 500px;
+}
+.email{
+    height: 40px;
+    width: 400px;
+    background-color: rgba(255, 217, 0, 0.699);
+    border-radius: 5px;
+    border-color: gold;
+    font-size:larger;
+    padding-left: 120px;
+    margin-bottom: 10px;
+}
+.email-title{
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
 /* Footer Section */
 .footer {
     width: 800px;
