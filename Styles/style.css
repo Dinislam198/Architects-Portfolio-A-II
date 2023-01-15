@@ -134,10 +134,10 @@ header {
 
 .second-body {
     margin-top: 200px;
-    /* background-color: #757574; */
     width: 1100px;
     height: 800px;
     margin-left: 140px;
+    margin-bottom: 170px;
 
 }
 
@@ -202,4 +202,119 @@ header {
 .button-title {
     font-weight: 700;
     font-size: 40px;
+}
+
+/* End Second Part of Body */
+
+/* Second Middle Part */
+.middle-text {
+    margin-left: 140px;
+    margin-bottom: 100px;
+}
+
+.middle-text-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.middle-text-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+}
+
+.middle-one {
+    color: #FF900E
+}
+
+.icon-head {
+    display: flex;
+    column-gap: -15px;
+    margin-bottom: 180px;
+}
+
+.icon-box {
+    width: 200px;
+    height: 220px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    margin-left: 110px;
+    transition: width 5s, height 5s, transform 5s;
+
+}
+.icon-box:hover{
+    transform: scale(-0.5);
+}
+
+.icon-box-img {
+    height: 90px;
+    width: 90px;
+    margin-top: 30px;
+    margin-left: 55px;
+}
+
+.icon-box-title {
+    margin-left: 65px;
+    margin-top: 1px;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.icon-box-des {
+    margin-left: 27px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #727272;
+    padding-bottom: 30px;
+}
+
+/*--------End Second Middle Part -------*/
+
+/* ------------------ 
+-------Inner Footer Part---
+----------------------- */
+.footer-text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.footer-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+}
+
+/* Footer Image Part */
+.footer-image {
+    display: flex;
+    gap: 66px;
+    margin-left: 130px;
+    margin-bottom: 130px;
+}
+
+.footer-image-main {
+    color: #727272;
+    mix-blend-mode: luminosity;
+}
+
+/* Footer Section */
+.footer {
+    width: 800px;
+    height: 50px;
+    background-color: #f3c99598;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-left: 250px;
+}
+.footer-text{
+    padding: 15px;
 }
